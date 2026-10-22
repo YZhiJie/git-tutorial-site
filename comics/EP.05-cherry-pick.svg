@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#f05133"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.05</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">精准搬运提交</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">Git 漫画剧场 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：热修要回灌</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="332" height="66" rx="10" fill="#f8fafc"/>
+    <text x="102" y="98" font-size="15" fill="#0b1220">hotfix 在 main 修好了，</text>
+    <text x="102" y="120" font-size="15" fill="#0b1220">release 分支也要，怎么搬？</text>
+    <text x="102" y="138" font-size="13" fill="#64748b">整支合并会把未发布功能带上去。</text>
+    <rect x="24" y="160" width="524" height="100" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="182" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git log --oneline -3 main</text>
+    <text x="38" y="204" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">a1b2c3d fix: 支付回调超时</text>
+    <text x="38" y="224" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">d4e5f6a feat: 新会员体系</text>
+    <text x="38" y="244" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">9c8b7a6 chore: 升级依赖</text>
+    <rect x="24" y="274" width="524" height="58" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="274" width="4" height="58" rx="2" fill="#22d3ee"/>
+    <text x="40" y="296" font-size="13.5" fill="#e2e8f0">只要 a1b2c3d 这一个修复，不要另外两个提交；</text>
+    <text x="40" y="316" font-size="13.5" fill="#94a3b8">这就是 cherry-pick 的典型场景。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：只搬一次 diff</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="330" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">它只计算那个提交的改动，再重放一次。</text>
+    <path d="M44,192 H500" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="64" cy="192" r="9" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="150" cy="192" r="9" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="238" cy="192" r="9" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="420" cy="192" r="9" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <text x="238" y="170" text-anchor="middle" font-size="11.5" fill="#a78bfa">release</text>
+    <text x="420" y="170" text-anchor="middle" font-size="11.5" fill="#34d399">新提交 F&#39;</text>
+    <path d="M64,270 H150" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="64" cy="270" r="9" fill="#0e1730" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="150" cy="270" r="9" fill="#0e1730" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="330" cy="270" r="9" fill="#0e1730" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="330" y="248" text-anchor="middle" font-size="11.5" fill="#fbbf24">hotfix H</text>
+    <text x="110" y="294" text-anchor="middle" font-size="11.5" fill="#22d3ee">main</text>
+    <path d="M330,258 C330,226 380,216 408,204" stroke="#f472b6" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+    <polygon points="414,201 404,199 408,208" fill="#f472b6"/>
+    <text x="360" y="238" text-anchor="middle" font-size="11.5" fill="#f472b6">pick</text>
+    <rect x="24" y="306" width="524" height="42" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="306" width="4" height="42" rx="2" fill="#a78bfa"/>
+    <text x="40" y="332" font-size="13.5" fill="#94a3b8">改动一样，父提交不同，所以哈希也是新的。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：参数怎么选</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="320" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">一次搬多个提交，区间怎么写？</text>
+    <rect x="24" y="132" width="524" height="120" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git cherry-pick a1b2c3d</text>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git cherry-pick a1b2c3d e4f5g6h</text>
+    <text x="38" y="194" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">$ git cherry-pick A..B   # 不含 A，含 B</text>
+    <text x="38" y="214" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">$ git cherry-pick A^..B  # 想含 A 用这个</text>
+    <text x="38" y="236" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 顺序按命令行从左到右依次应用</text>
+    <rect x="24" y="264" width="168" height="40" rx="8" fill="#111a30" stroke="#34d399" stroke-opacity="0.45"/>
+    <text x="108" y="281" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">-x 记录来源</text>
+    <text x="108" y="297" text-anchor="middle" font-size="11" fill="#94a3b8">便于追溯</text>
+    <rect x="202" y="264" width="168" height="40" rx="8" fill="#111a30" stroke="#a78bfa" stroke-opacity="0.45"/>
+    <text x="286" y="281" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">-n 不提交</text>
+    <text x="286" y="297" text-anchor="middle" font-size="11" fill="#94a3b8">先攒改动</text>
+    <rect x="380" y="264" width="168" height="40" rx="8" fill="#111a30" stroke="#fbbf24" stroke-opacity="0.45"/>
+    <text x="464" y="281" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbbf24">-e 改信息</text>
+    <text x="464" y="297" text-anchor="middle" font-size="11" fill="#94a3b8">应用前编辑</text>
+    <rect x="24" y="314" width="524" height="38" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="314" width="4" height="38" rx="2" fill="#f472b6"/>
+    <text x="40" y="338" font-size="13" fill="#94a3b8">冲突处理与 merge 相同：改完 add，再 --continue。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：搬运不是同步</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="330" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">少量搬运可以，长期双向同步要 merge。</text>
+    <rect x="24" y="132" width="524" height="84" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace"># 推荐：带上来源，日后能查</text>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git cherry-pick -x a1b2c3d</text>
+    <text x="38" y="196" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 长期同步：git merge main</text>
+    <text x="38" y="212" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 或 git rebase main，而不是反复 pick</text>
+    <rect x="24" y="226" width="524" height="44" rx="8" fill="#2a1a12" stroke="#f97316" stroke-opacity="0.55"/>
+    <rect x="36" y="237" width="78" height="22" rx="6" fill="#f97316"/>
+    <text x="75" y="253" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">坑点</text>
+    <text x="124" y="253" font-size="13" fill="#e2e8f0">A..B 不含 A；重复 pick 会产生重复提交</text>
+    <rect x="24" y="280" width="524" height="50" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="280" width="4" height="50" rx="2" fill="#f97316"/>
+    <text x="40" y="301" font-size="13.5" fill="#e2e8f0">搬完用 git log 核对来源与内容；</text>
+    <text x="40" y="321" font-size="13.5" fill="#94a3b8">pick 越多，后续合并冲突越难收拾。</text>
+  </g>
+</svg>

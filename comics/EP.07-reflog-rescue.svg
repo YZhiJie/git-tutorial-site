@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#f05133"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.07</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">reflog 后悔药</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">Git 漫画剧场 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：手滑两次</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="332" height="66" rx="10" fill="#f8fafc"/>
+    <text x="102" y="98" font-size="15" fill="#0b1220">先误删分支，又 reset --hard，</text>
+    <text x="102" y="120" font-size="15" fill="#0b1220">两天的工作还能找回来吗？</text>
+    <text x="102" y="138" font-size="13" fill="#64748b">同事说：先别提交任何东西。</text>
+    <rect x="24" y="160" width="524" height="100" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.35"/>
+    <text x="38" y="182" font-size="12.5" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">$ git branch -D feature/pay</text>
+    <text x="38" y="202" font-size="12.5" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">$ git reset --hard HEAD~2</text>
+    <text x="38" y="224" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 分支没了，提交也不在分支上</text>
+    <text x="38" y="244" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 但对象还躺在 .git 里</text>
+    <rect x="24" y="274" width="524" height="58" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="274" width="4" height="58" rx="2" fill="#22d3ee"/>
+    <text x="40" y="296" font-size="13.5" fill="#e2e8f0">Git 删除分支只是删掉一个指针，</text>
+    <text x="40" y="316" font-size="13.5" fill="#94a3b8">提交对象在 GC 之前都还在。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：HEAD 的日记本</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="336" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">reflog 记录 HEAD 每一次移动，默认 90 天。</text>
+    <rect x="24" y="132" width="524" height="130" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git reflog --date=iso -8</text>
+    <text x="38" y="176" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">e5d4c3b HEAD@{0}: reset: to HEAD~2</text>
+    <text x="38" y="196" font-size="12.5" fill="#a78bfa" font-family="'SF Mono',Consolas,monospace">9a8b7c6 HEAD@{1}: commit: 导出字段</text>
+    <text x="38" y="216" font-size="12.5" fill="#a78bfa" font-family="'SF Mono',Consolas,monospace">1f2e3d4 HEAD@{2}: commit: 导出订单</text>
+    <text x="38" y="236" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">7d3e2f1 HEAD@{3}: checkout: 回到 main</text>
+    <text x="38" y="256" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 每条都带当时的提交哈希</text>
+    <rect x="24" y="274" width="524" height="58" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="274" width="4" height="58" rx="2" fill="#a78bfa"/>
+    <text x="40" y="296" font-size="13.5" fill="#e2e8f0">分支也有自己的 reflog，路径在</text>
+    <text x="40" y="316" font-size="13.5" fill="#94a3b8">.git/logs/refs/heads/&lt;branch&gt;。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：把指针接回去</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="314" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">拿到哈希之后，具体怎么救？</text>
+    <rect x="24" y="132" width="524" height="120" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 1. 恢复误删的分支</text>
+    <text x="38" y="174" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">$ git branch feature/pay 7d3e2f1</text>
+    <text x="38" y="194" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 先建临时分支验证，再改回原名</text>
+    <text x="38" y="214" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 2. 恢复 reset --hard</text>
+    <text x="38" y="234" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">$ git reset --hard ORIG_HEAD</text>
+    <rect x="24" y="262" width="254" height="48" rx="8" fill="#111a30" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="151" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">整体回到之前</text>
+    <text x="151" y="300" text-anchor="middle" font-size="11" fill="#94a3b8">ORIG_HEAD</text>
+    <rect x="290" y="262" width="254" height="48" rx="8" fill="#111a30" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <text x="417" y="282" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">只捡回提交</text>
+    <text x="417" y="300" text-anchor="middle" font-size="11" fill="#94a3b8">cherry-pick 到当前分支</text>
+    <rect x="24" y="318" width="524" height="36" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <text x="40" y="341" font-size="13" fill="#94a3b8">确认无误后，再删除临时分支与旧引用。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：先停手再翻日记</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="340" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">先停手，翻 reflog，再挑一个哈希接回去。</text>
+    <rect x="24" y="132" width="524" height="66" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">$ git reflog</text>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git branch rescue &lt;hash&gt;</text>
+    <text x="38" y="192" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 用临时分支接住，确认内容再合并</text>
+    <rect x="24" y="208" width="524" height="44" rx="8" fill="#2a1a12" stroke="#f97316" stroke-opacity="0.55"/>
+    <rect x="36" y="219" width="78" height="22" rx="6" fill="#f97316"/>
+    <text x="75" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">坑点</text>
+    <text x="124" y="235" font-size="13" fill="#e2e8f0">reflog 救不了从未 add 的工作区改动</text>
+    <rect x="24" y="262" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="262" width="4" height="52" rx="2" fill="#f97316"/>
+    <text x="40" y="283" font-size="13.5" fill="#e2e8f0">也救不了已提交但被新提交覆盖的语义错误；</text>
+    <text x="40" y="303" font-size="13.5" fill="#94a3b8">恢复后务必 diff 一遍再继续开发。</text>
+  </g>
+</svg>
