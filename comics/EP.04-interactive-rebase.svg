@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#f05133"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.04</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">交互式整理提交</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">Git 漫画剧场 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：七个 wip</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="332" height="66" rx="10" fill="#f8fafc"/>
+    <text x="102" y="98" font-size="15" fill="#0b1220">PR 里 7 个 wip 提交，</text>
+    <text x="102" y="120" font-size="15" fill="#0b1220">reviewer：先整理成 2 个再提。</text>
+    <text x="102" y="138" font-size="13" fill="#64748b">可我已经推上去了……</text>
+    <rect x="24" y="160" width="524" height="124" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="182" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git log --oneline -7</text>
+    <text x="38" y="202" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">c7 wip</text>
+    <text x="38" y="222" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">b6 wip</text>
+    <text x="38" y="242" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">a5 fix typo</text>
+    <text x="38" y="262" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">94 feat: 支付回调（半成品）</text>
+    <text x="38" y="282" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">83 wip</text>
+    <rect x="24" y="296" width="524" height="42" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="296" width="4" height="42" rx="2" fill="#22d3ee"/>
+    <text x="40" y="322" font-size="13.5" fill="#e2e8f0">评审看的是提交叙事，不是你的摸索过程。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：一张待办清单</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="326" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">交互式 rebase，就是编辑一张清单。</text>
+    <rect x="24" y="132" width="78" height="26" rx="6" fill="#22d3ee"/>
+    <text x="63" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">pick</text>
+    <text x="114" y="150" font-size="12.5" fill="#e2e8f0">保留这个提交</text>
+    <rect x="24" y="162" width="78" height="26" rx="6" fill="#a78bfa"/>
+    <text x="63" y="180" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">reword</text>
+    <text x="114" y="180" font-size="12.5" fill="#e2e8f0">保留改动，改提交信息</text>
+    <rect x="24" y="192" width="78" height="26" rx="6" fill="#f472b6"/>
+    <text x="63" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">squash</text>
+    <text x="114" y="210" font-size="12.5" fill="#e2e8f0">并入上一个，可改信息</text>
+    <rect x="24" y="222" width="78" height="26" rx="6" fill="#fbbf24"/>
+    <text x="63" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">fixup</text>
+    <text x="114" y="240" font-size="12.5" fill="#e2e8f0">并入上一个，丢弃信息</text>
+    <rect x="24" y="252" width="78" height="26" rx="6" fill="#34d399"/>
+    <text x="63" y="270" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">drop</text>
+    <text x="114" y="270" font-size="12.5" fill="#e2e8f0">直接删除这个提交</text>
+    <rect x="24" y="282" width="78" height="26" rx="6" fill="#f97316"/>
+    <text x="63" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">exec</text>
+    <text x="114" y="300" font-size="12.5" fill="#e2e8f0">在此处插入一条命令</text>
+    <rect x="24" y="314" width="524" height="38" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="314" width="4" height="38" rx="2" fill="#a78bfa"/>
+    <text x="40" y="338" font-size="13" fill="#94a3b8">从上往下执行，清单改完保存即开始。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：哈希会变</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="316" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">整理完，原来的提交去哪了？</text>
+    <rect x="24" y="132" width="310" height="150" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git rebase -i HEAD~5</text>
+    <text x="38" y="174" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">pick   a5 fix typo</text>
+    <text x="38" y="194" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">squash b6 wip</text>
+    <text x="38" y="214" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">squash c7 wip</text>
+    <text x="38" y="234" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace"># 保存退出后 Git 逐个重放</text>
+    <text x="38" y="254" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 旧提交仍可被 reflog 找回</text>
+    <text x="38" y="274" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace"># 新提交 = 同样的改动，新哈希</text>
+    <rect x="346" y="132" width="202" height="150" rx="8" fill="#111a30" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <text x="447" y="156" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#a78bfa">本质</text>
+    <text x="362" y="182" font-size="12" fill="#e2e8f0">把每个提交的 diff</text>
+    <text x="362" y="202" font-size="12" fill="#e2e8f0">在新基底上重放，</text>
+    <text x="362" y="222" font-size="12" fill="#e2e8f0">相当于连续执行</text>
+    <text x="362" y="242" font-size="12" fill="#f472b6">cherry-pick，</text>
+    <text x="362" y="262" font-size="12" fill="#e2e8f0">所以哈希必然变化。</text>
+    <rect x="24" y="296" width="524" height="42" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="296" width="4" height="42" rx="2" fill="#f472b6"/>
+    <text x="40" y="322" font-size="13.5" fill="#e2e8f0">用 fixup! 前缀提交，再 --autosquash 自动归并。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：先确认归属</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="338" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">只有没人拉过的分支，才轮到你改写历史。</text>
+    <rect x="24" y="132" width="524" height="66" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">$ git add . &amp;&amp; git rebase --continue</text>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git rebase --skip    # 该提交已不需要</text>
+    <text x="38" y="194" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">$ git rebase --abort   # 回到开始前</text>
+    <rect x="24" y="208" width="524" height="44" rx="8" fill="#2a1a12" stroke="#f97316" stroke-opacity="0.55"/>
+    <rect x="36" y="219" width="78" height="22" rx="6" fill="#f97316"/>
+    <text x="75" y="235" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">坑点</text>
+    <text x="124" y="235" font-size="13" fill="#e2e8f0">对公共分支 rebase 后强推，同事历史断裂</text>
+    <rect x="24" y="262" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="262" width="4" height="52" rx="2" fill="#f97316"/>
+    <text x="40" y="283" font-size="13.5" fill="#e2e8f0">强推前先 fetch，确认远端没人加新提交；</text>
+    <text x="40" y="303" font-size="13.5" fill="#94a3b8">用 --force-with-lease 留一道保险。</text>
+  </g>
+</svg>

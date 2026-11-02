@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#f05133"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.08</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">企业级分支模型</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">Git 漫画剧场 · 霓虹墨 NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：流程拖慢发布</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-5,18 L5,18 L3.5,27 L0,29 L-3.5,27 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="76" width="336" height="66" rx="10" fill="#f8fafc"/>
+    <text x="102" y="98" font-size="15" fill="#0b1220">30 人团队用 Git Flow，</text>
+    <text x="102" y="120" font-size="15" fill="#0b1220">发布越来越慢，hotfix 总冲突。</text>
+    <text x="102" y="138" font-size="13" fill="#64748b">是不是模型本身选错了？</text>
+    <rect x="24" y="160" width="524" height="96" rx="8" fill="#0a0f1c" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="38" y="180" font-size="11.5" fill="#22d3ee">main</text>
+    <path d="M104,176 H512" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="116" cy="176" r="5.5" fill="#0e1730" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="236" cy="176" r="5.5" fill="#0e1730" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="356" cy="176" r="5.5" fill="#0e1730" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="488" cy="176" r="5.5" fill="#0e1730" stroke="#22d3ee" stroke-width="2.5"/>
+    <text x="38" y="204" font-size="11.5" fill="#a78bfa">develop</text>
+    <path d="M104,200 H512" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="116" cy="200" r="5.5" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="176" cy="200" r="5.5" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="236" cy="200" r="5.5" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="296" cy="200" r="5.5" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="356" cy="200" r="5.5" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="436" cy="200" r="5.5" fill="#0e1730" stroke="#a78bfa" stroke-width="2.5"/>
+    <text x="38" y="228" font-size="11.5" fill="#fbbf24">release</text>
+    <path d="M240,224 H400" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="252" cy="224" r="5.5" fill="#0e1730" stroke="#fbbf24" stroke-width="2.5"/>
+    <circle cx="376" cy="224" r="5.5" fill="#0e1730" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="38" y="252" font-size="11.5" fill="#f472b6">feature</text>
+    <path d="M104,248 H240" stroke="#f472b6" stroke-width="2.5"/>
+    <circle cx="116" cy="248" r="5.5" fill="#0e1730" stroke="#f472b6" stroke-width="2.5"/>
+    <circle cx="176" cy="248" r="5.5" fill="#0e1730" stroke="#f472b6" stroke-width="2.5"/>
+    <circle cx="228" cy="248" r="5.5" fill="#0e1730" stroke="#f472b6" stroke-width="2.5"/>
+    <rect x="24" y="270" width="524" height="62" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="270" width="4" height="62" rx="2" fill="#22d3ee"/>
+    <text x="40" y="292" font-size="13.5" fill="#e2e8f0">分支层级越多，合流点越多，回灌路径越长；</text>
+    <text x="40" y="312" font-size="13.5" fill="#94a3b8">先量一量发布频率与团队规模，再谈模型。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：三种模型</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="330" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">没有最好，只有匹配约束的模型。</text>
+    <rect x="24" y="132" width="166" height="174" rx="8" fill="#111a30" stroke="#f472b6" stroke-opacity="0.4"/>
+    <text x="107" y="154" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#f472b6">Git Flow</text>
+    <text x="38" y="180" font-size="11.5" fill="#e2e8f0">main / develop</text>
+    <text x="38" y="200" font-size="11.5" fill="#e2e8f0">release / hotfix</text>
+    <text x="38" y="220" font-size="11.5" fill="#e2e8f0">严格版本发布</text>
+    <text x="38" y="240" font-size="11.5" fill="#94a3b8">层级多，流程重</text>
+    <text x="38" y="266" font-size="11" fill="#64748b">适合：固定版本</text>
+    <text x="38" y="284" font-size="11" fill="#64748b">客户端/嵌入式</text>
+    <rect x="202" y="132" width="166" height="174" rx="8" fill="#111a30" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="285" y="154" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#22d3ee">GitHub Flow</text>
+    <text x="216" y="180" font-size="11.5" fill="#e2e8f0">main 常驻可发布</text>
+    <text x="216" y="200" font-size="11.5" fill="#e2e8f0">feature 短分支</text>
+    <text x="216" y="220" font-size="11.5" fill="#e2e8f0">PR + 评审合并</text>
+    <text x="216" y="240" font-size="11.5" fill="#94a3b8">简单，持续部署</text>
+    <text x="216" y="266" font-size="11" fill="#64748b">适合：Web/SaaS</text>
+    <text x="216" y="284" font-size="11" fill="#64748b">中小团队</text>
+    <rect x="380" y="132" width="168" height="174" rx="8" fill="#111a30" stroke="#34d399" stroke-opacity="0.4"/>
+    <text x="464" y="154" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#34d399">Trunk-Based</text>
+    <text x="394" y="180" font-size="11.5" fill="#e2e8f0">主干 + 极短分支</text>
+    <text x="394" y="200" font-size="11.5" fill="#e2e8f0">小步提交，频繁集成</text>
+    <text x="394" y="220" font-size="11.5" fill="#e2e8f0">特性开关兜底</text>
+    <text x="394" y="240" font-size="11.5" fill="#94a3b8">要求自动化高</text>
+    <text x="394" y="266" font-size="11" fill="#64748b">适合：高频发布</text>
+    <text x="394" y="284" font-size="11" fill="#64748b">成熟工程团队</text>
+    <rect x="24" y="316" width="524" height="36" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <text x="40" y="339" font-size="13" fill="#94a3b8">模型决定分叉形态，保护规则决定它能否落地。</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：三个问题定模型</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="310" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">那到底怎么选，有没有判断表？</text>
+    <rect x="24" y="132" width="524" height="50" rx="8" fill="#111a30" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="38" y="152" font-size="12.5" font-weight="bold" fill="#22d3ee">1. 多久发布一次？</text>
+    <text x="38" y="172" font-size="12" fill="#94a3b8">按周/按版本 → Git Flow；每天 → GitHub Flow</text>
+    <rect x="24" y="190" width="524" height="50" rx="8" fill="#111a30" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <text x="38" y="210" font-size="12.5" font-weight="bold" fill="#a78bfa">2. 团队多少人？</text>
+    <text x="38" y="230" font-size="12" fill="#94a3b8">30 人以上 → 短分支 + 强 CI；小团队可简化</text>
+    <rect x="24" y="248" width="524" height="50" rx="8" fill="#111a30" stroke="#f472b6" stroke-opacity="0.4"/>
+    <text x="38" y="268" font-size="12.5" font-weight="bold" fill="#f472b6">3. 回滚与审计要求？</text>
+    <text x="38" y="288" font-size="12" fill="#94a3b8">强审计 → 保留 release/hotfix 轨迹；否则主干优先</text>
+    <rect x="24" y="306" width="524" height="46" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="306" width="4" height="46" rx="2" fill="#f472b6"/>
+    <text x="40" y="326" font-size="13.5" fill="#e2e8f0">三个问题里有两个指向同一模型，就选它；</text>
+    <text x="40" y="344" font-size="13.5" fill="#94a3b8">摇摆不定时，先选更简单的那个。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：规则比模型重要</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,99 74,105 88,111" fill="#f8fafc"/>
+    <rect x="88" y="88" width="340" height="34" rx="10" fill="#f8fafc"/>
+    <text x="102" y="110" font-size="15" fill="#0b1220">模型 + 保护规则 + 小 PR，才算真正落地。</text>
+    <rect x="24" y="132" width="524" height="84" rx="8" fill="#0a0f1c" stroke="#34d399" stroke-opacity="0.35"/>
+    <text x="38" y="154" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">main 分支保护：</text>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">- 至少 1 人 approve</text>
+    <text x="38" y="194" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">- CI 必须绿；禁止直接 push</text>
+    <text x="38" y="212" font-size="12.5" fill="#94a3b8" font-family="'SF Mono',Consolas,monospace">- 线性历史或 squash 合并</text>
+    <rect x="24" y="226" width="524" height="44" rx="8" fill="#2a1a12" stroke="#f97316" stroke-opacity="0.55"/>
+    <rect x="36" y="237" width="78" height="22" rx="6" fill="#f97316"/>
+    <text x="75" y="253" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1220">坑点</text>
+    <text x="124" y="253" font-size="13" fill="#e2e8f0">只改分支名，不改评审与自动化流程</text>
+    <rect x="24" y="280" width="524" height="50" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="280" width="4" height="50" rx="2" fill="#f97316"/>
+    <text x="40" y="301" font-size="13.5" fill="#e2e8f0">让分支活得短、PR 变得小、集成变得频繁，</text>
+    <text x="40" y="321" font-size="13.5" fill="#94a3b8">冲突面积自然会缩小。</text>
+  </g>
+</svg>

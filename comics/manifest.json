@@ -1,0 +1,98 @@
+{
+  "series": "Git 漫画剧场 · 霓虹墨 Neon Ink",
+  "version": "1.0.0",
+  "canvas": {
+    "width": 1200,
+    "height": 840
+  },
+  "panels": {
+    "count": 4,
+    "width": 572,
+    "height": 361
+  },
+  "characters": ["像素酱", "标签君", "码叔"],
+  "parts": [
+    {
+      "file": "guide/basics/03-three-areas.md",
+      "label": "入门篇 · 三区模型与分支引用"
+    },
+    {
+      "file": "guide/collaboration/03-merge-vs-rebase.md",
+      "label": "协作篇 · merge vs rebase"
+    },
+    {
+      "file": "guide/collaboration/02-conflict-essence.md",
+      "label": "协作篇 · 冲突三方合并"
+    },
+    {
+      "file": "guide/collaboration/04-interactive-rebase.md",
+      "label": "协作篇 · 交互式 rebase"
+    },
+    {
+      "file": "guide/collaboration/05-cherry-pick.md",
+      "label": "协作篇 · cherry-pick"
+    },
+    {
+      "file": "guide/collaboration/06-revert-vs-reset.md",
+      "label": "协作篇 · revert vs reset"
+    },
+    {
+      "file": "guide/mastery/01-reflog.md",
+      "label": "精通篇 · reflog 救援"
+    },
+    {
+      "file": "guide/collaboration/09-branching-models.md",
+      "label": "协作篇 · 分支模型选型"
+    }
+  ],
+  "episodes": [
+    {
+      "ep": 1,
+      "slug": "EP.01-three-areas-and-refs",
+      "title": "三区模型与分支指针",
+      "part": "guide/basics/03-three-areas.md"
+    },
+    {
+      "ep": 2,
+      "slug": "EP.02-merge-vs-rebase",
+      "title": "merge 还是 rebase",
+      "part": "guide/collaboration/03-merge-vs-rebase.md"
+    },
+    {
+      "ep": 3,
+      "slug": "EP.03-conflict-three-way",
+      "title": "冲突的三方合并",
+      "part": "guide/collaboration/02-conflict-essence.md"
+    },
+    {
+      "ep": 4,
+      "slug": "EP.04-interactive-rebase",
+      "title": "交互式整理提交",
+      "part": "guide/collaboration/04-interactive-rebase.md"
+    },
+    {
+      "ep": 5,
+      "slug": "EP.05-cherry-pick",
+      "title": "精准搬运提交",
+      "part": "guide/collaboration/05-cherry-pick.md"
+    },
+    {
+      "ep": 6,
+      "slug": "EP.06-revert-vs-reset",
+      "title": "线上回滚怎么选",
+      "part": "guide/collaboration/06-revert-vs-reset.md"
+    },
+    {
+      "ep": 7,
+      "slug": "EP.07-reflog-rescue",
+      "title": "reflog 后悔药",
+      "part": "guide/mastery/01-reflog.md"
+    },
+    {
+      "ep": 8,
+      "slug": "EP.08-enterprise-branching",
+      "title": "企业级分支模型",
+      "part": "guide/collaboration/09-branching-models.md"
+    }
+  ]
+}
